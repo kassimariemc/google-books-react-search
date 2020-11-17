@@ -12,7 +12,9 @@ Technologies used
 * React App
 * [Google Books API](https://developers.google.com/books)
 
-![Screen Shot]()
+![Screen Shot](screen-shot-search.png)
+
+![Screen Shot](screen-shot-saved.png)
 
 Deployed Application: [https://google-books-react-search-01.herokuapp.com/](https://google-books-react-search-01.herokuapp.com/)
 
