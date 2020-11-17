@@ -6,7 +6,7 @@ router.route('/:search')
   .get(async (req, res) => {
     const search = req.params.search;
 
-    const key = process.env.REACT_APP_GOOGLE_BOOKS;
+    const key = process.env.GOOGLE_BOOKS;
     const url = `https://www.googleapis.com/books/v1/volumes?q=${search}&key=${key}`;
 
     const google_response = await fetch(url);
