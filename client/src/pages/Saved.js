@@ -58,7 +58,9 @@ function Saved(props) {
       </Row>
       <Row>
         <Col size="md-2">
+          <button style={{ margin: 10 }} className="btn btn-warning">
           <Link to="/">← Back to Search</Link>
+          </button>
         </Col>
       </Row>
     </Container>
